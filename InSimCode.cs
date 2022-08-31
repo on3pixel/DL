@@ -24,9 +24,9 @@ namespace DL
                 insim = new InSim();
 
                 insim.Initialize(new InSimSettings {
-                    Host = "190.102.40.134",
-                    Port = 29999,
-                    Admin = "Tasty109010##",
+                    Host = "IP", #CHANGE ME
+                    Port = 29999, #CHANGE ME
+                    Admin = "", #CHANGE ME
                     Flags = InSimFlags.ISF_MCI | InSimFlags.ISF_MSO_COLS,
                     Interval = 500,
                     Prefix = '!'
